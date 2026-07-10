@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "create-ice:block/industrial_sponge/industrial_sponge"
+    }
+}

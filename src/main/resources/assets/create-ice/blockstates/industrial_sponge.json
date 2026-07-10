@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "wet=false": {
+            "model": "create-ice:block/industrial_sponge/industrial_sponge"
+        },
+        "wet=true": {
+            "model": "create-ice:block/industrial_sponge/wet_industrial_sponge"
+        }
+    }
+}

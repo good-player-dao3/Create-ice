@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#.#",
+        ".Z.",
+        "#.#"
+    ],
+    "key": {
+        "#": "#c:plates/iron",
+        "Z": "minecraft:sponge",
+        ".": "create:fluid_tank"
+    },
+    "result": {
+        "id": "create-ice:industrial_sponge"
+    }
+}
