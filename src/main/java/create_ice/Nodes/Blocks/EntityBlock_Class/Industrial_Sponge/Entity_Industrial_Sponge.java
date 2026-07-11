@@ -77,6 +77,15 @@ public class Entity_Industrial_Sponge extends BlockEntity implements SidedStorag
                 input.read("variant",FluidVariant.CODEC).orElse(FluidVariant.blank()):
                 FluidVariant.of(Fluids.WATER)
         ;
+        if(this.getLevel() != null && !this.getLevel().isClientSide())
+        {
+            Industrial_Sponge.updateWet(
+                    this.getLevel().getBlockState(this.getBlockPos()),
+                    this.fluidStorage.getAmount() > 0,
+                    this.getLevel(),
+                    this.getBlockPos()
+            );
+        }
         super.loadAdditional(input);
     }
 

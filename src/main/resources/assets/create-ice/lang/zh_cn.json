@@ -1,5 +1,13 @@
 {
     "block.create-ice.industrial_sponge": "工业海绵",
+    "create-ice.ponder.shared.industrial_sponge_1.1": "这是一个工业海绵，可以存储64B的水",
+    "create-ice.ponder.shared.industrial_sponge_1.2": "蓄水后他会变湿",
+    "create-ice.ponder.shared.industrial_sponge_3.1": "在动态结构上时，",
+    "create-ice.ponder.shared.industrial_sponge_3.2": "当位置发生改变时可以吸水",
+    "create-ice.ponder.shared.industrial_sponge_3.3": "当海绵吸够水后或结构停止运动，",
+    "create-ice.ponder.shared.industrial_sponge_3.4": "将无法继续吸水",
 
-    "creativeTab.create-ice": "机械动力丨冰"
+    "creativeTab.create-ice": "机械动力丨冰",
+    "create-ice.ponder.industrial_sponge_1.header": "使用工业海绵蓄水",
+    "create-ice.ponder.industrial_sponge_2.header": "在动态结构上的工业海绵"
 }
