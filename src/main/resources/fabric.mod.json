@@ -3,13 +3,14 @@
 	"id": "create-ice",
 	"version": "${version}",
 	"name": "Create Ice",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Create Fly的附属mod,增加了一些与冰相关的东西\nAn addon mod for Create Fly, adding some ice‑related items and recipes",
 	"authors": [
-		"Me!"
+		"good-player-dao3"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.bilibili.com/video/BV1GJ411x7h7/",
+		"issues": "https://github.com/good-player-dao3/Create-ice/issues",
+		"sources": "https://github.com/good-player-dao3/Create-ice/tree/master"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/create-ice/icon.png",
@@ -35,6 +36,7 @@
 	"depends": {
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~26.1.2",
+		"create": "*",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
