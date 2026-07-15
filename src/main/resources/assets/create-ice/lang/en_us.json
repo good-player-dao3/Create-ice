@@ -1,5 +1,7 @@
 {
     "block.create-ice.industrial_sponge": "Industrial Sponge",
 
+    "block.create-ice.ice_maker": "Ice Maker",
+
     "creativeTab.create-ice": "Create丨Ice"
 }

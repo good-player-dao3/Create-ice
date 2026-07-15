@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "axis=x": {
+            "model": "create-ice:block/ice_maker/ice_maker",
+            "y": 90
+        },
+        "axis=z":{
+            "model": "create-ice:block/ice_maker/ice_maker"
+        }
+    }
+}

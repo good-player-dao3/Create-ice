@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#F#",
+        "#I#"
+    ],
+    "key": {
+        "#": "#c:plates/iron",
+        "S": "minecraft:compass",
+        "F": "create:encased_fan",
+        "I": "minecraft:blue_ice"
+    },
+    "result": {
+        "id": "create-ice:ice_maker"
+    }
+}

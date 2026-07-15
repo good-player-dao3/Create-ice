@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "create-ice:block/ice_maker/ice_maker_item"
+    }
+}
