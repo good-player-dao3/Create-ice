@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "create-ice:ice_maker",
+        "create-ice:methane_ice"
+    ]
+}

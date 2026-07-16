@@ -3,5 +3,7 @@
 
     "block.create-ice.ice_maker": "Ice Maker",
 
+    "block.create-ice.methane_ice": "Methane Ice",
+
     "creativeTab.create-ice": "Create丨Ice"
 }

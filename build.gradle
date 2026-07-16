@@ -57,11 +57,24 @@ dependencies {
 }
 
 processResources {
+	// Avoid failing on duplicate generated cache entries and exclude internal cache
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	exclude '.cache/**'
+
 	def version = project.version
 	inputs.property "version", version
 
 	filesMatching("fabric.mod.json") {
 		expand "version": version
+	}
+}
+
+// Include generated data as resources so runClient picks up data-driven worldgen
+sourceSets {
+	main {
+		resources {
+			srcDir 'src/main/generated'
+		}
 	}
 }
 

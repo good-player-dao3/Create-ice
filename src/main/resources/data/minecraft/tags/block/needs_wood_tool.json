@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "create-ice:industrial_sponge",
         "create-ice:ice_maker"
     ]
 }

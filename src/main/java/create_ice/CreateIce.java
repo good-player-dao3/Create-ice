@@ -1,14 +1,17 @@
 package create_ice;
 
+import create_ice.Nodes.index;
+import create_ice.Provider.Placed_Feature;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
+import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
-
-import create_ice.Nodes.index;
-
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.tags.BiomeTags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.levelgen.GenerationStep;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,9 +30,13 @@ public class CreateIce implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello world!");
-		//
 		index.initialize();
-		//
+		BiomeModifications.addFeature(
+				BiomeSelectors.tag(BiomeTags.IS_DEEP_OCEAN),
+				GenerationStep.Decoration.VEGETAL_DECORATION,
+				Placed_Feature.PLACED_KEY
+		);
+		LOGGER.info("Worldgen feature added to biome modifications.");
 		LOGGER.info("Over!");
 	}
 

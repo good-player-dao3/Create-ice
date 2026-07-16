@@ -4,7 +4,7 @@ import com.zurrtum.create.AllBlocks;
 import com.zurrtum.create.content.kinetics.base.RotatedPillarKineticBlock;
 import com.zurrtum.create.foundation.block.IBE;
 import create_ice.Nodes.Blocks.EntityBlock_Class.EntityTypes;
-import create_ice.Nodes.Groups.GroupBlock;
+import create_ice.Nodes.Groups.GroupInterface;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -23,7 +23,7 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jspecify.annotations.NonNull;
 
-public class Ice_Maker extends RotatedPillarKineticBlock implements IBE<Entity_Ice_Maker>,GroupBlock<Ice_Maker>
+public class Ice_Maker extends RotatedPillarKineticBlock implements IBE<Entity_Ice_Maker>, GroupInterface<Ice_Maker>
 {
     public Ice_Maker(Properties properties)
     {

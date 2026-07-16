@@ -2,7 +2,7 @@ package create_ice.Nodes.Blocks.EntityBlock_Class.Industrial_Sponge;
 
 import com.zurrtum.create.foundation.block.IBE;
 import create_ice.Nodes.Blocks.EntityBlock_Class.EntityTypes;
-import create_ice.Nodes.Groups.GroupBlock;
+import create_ice.Nodes.Groups.GroupInterface;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -12,7 +12,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import org.jspecify.annotations.NonNull;
 
-public class Industrial_Sponge extends Block implements IBE<Entity_Industrial_Sponge>,GroupBlock<Industrial_Sponge>
+public class Industrial_Sponge extends Block implements IBE<Entity_Industrial_Sponge>, GroupInterface<Industrial_Sponge>
 {
     public Industrial_Sponge(Properties properties)
     {
