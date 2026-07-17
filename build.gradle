@@ -58,7 +58,7 @@ dependencies {
 
 processResources {
 	// Avoid failing on duplicate generated cache entries and exclude internal cache
-	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	duplicatesStrategy = DuplicatesStrategy.WARN
 	exclude '.cache/**'
 
 	def version = project.version
@@ -73,7 +73,7 @@ processResources {
 sourceSets {
 	main {
 		resources {
-			srcDir 'src/main/generated'
+			//srcDir 'src/main/generated'
 		}
 	}
 }

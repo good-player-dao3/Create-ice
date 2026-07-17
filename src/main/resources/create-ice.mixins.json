@@ -3,7 +3,8 @@
 	"package": "create_ice.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"Fluid"
 	],
 	"injectors": {
 		"defaultRequire": 1

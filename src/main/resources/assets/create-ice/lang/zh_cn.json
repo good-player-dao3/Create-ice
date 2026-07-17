@@ -15,6 +15,8 @@
 
     "block.create-ice.methane_ice": "可燃冰",
 
+    "block.create-ice.powder_snow_fluid": "细雪",
+
     "creativeTab.create-ice": "机械动力丨冰",
     "create-ice.ponder.industrial_sponge_1.header": "使用工业海绵蓄水",
     "create-ice.ponder.industrial_sponge_1.header": "在动态结构上的工业海绵",
