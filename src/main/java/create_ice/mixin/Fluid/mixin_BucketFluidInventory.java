@@ -1,4 +1,4 @@
-package create_ice.mixin;
+package create_ice.mixin.Fluid;
 
 import com.zurrtum.create.infrastructure.fluids.BucketFluidInventory;
 import com.zurrtum.create.infrastructure.fluids.FluidItemInventoryWrapper;
@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(BucketFluidInventory.class)
-public abstract class Fluid extends FluidItemInventoryWrapper {
+public abstract class mixin_BucketFluidInventory extends FluidItemInventoryWrapper {
     @Inject(at = @At("HEAD"), method = "toFluid", cancellable = true)
     public void toFluid(CallbackInfoReturnable<net.minecraft.world.level.material.Fluid> cir)
     {

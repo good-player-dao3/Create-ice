@@ -4,7 +4,9 @@
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"ExampleMixin",
-		"Fluid"
+		"Fluid.mixin_BucketFluidInventory",
+		"Fluid.mixin_VanillaFluidTargets",
+		"Fluid.mixin_OpenEndedPipe"
 	],
 	"injectors": {
 		"defaultRequire": 1

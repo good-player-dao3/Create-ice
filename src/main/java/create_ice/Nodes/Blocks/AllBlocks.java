@@ -3,9 +3,11 @@ package create_ice.Nodes.Blocks;
 
 import com.zurrtum.create.api.behaviour.movement.MovementBehaviour;
 import com.zurrtum.create.api.stress.BlockStressValues;
+import create_ice.Nodes.Blocks.Block_Class.Powder_Snow_Fluid_;
 import create_ice.Nodes.Blocks.EntityBlock_Class.Ice_Maker.Ice_Maker;
 import create_ice.Nodes.Blocks.EntityBlock_Class.Industrial_Sponge.Industrial_Sponge;
 import create_ice.Nodes.Blocks.EntityBlock_Class.Industrial_Sponge.Industrial_Sponge_Behaviour;
+import create_ice.Nodes.Fluid.AllFluid;
 import create_ice.Nodes.Groups.GroupBlock;
 import net.fabricmc.fabric.api.registry.FuelValueEvents;
 import net.minecraft.world.level.block.Block;
@@ -41,6 +43,13 @@ public class AllBlocks {
             BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ICE),
             true
     ).addGroup();
+
+    public static final Block POWDER_SNOW_FB = BaseBlock.register(
+            "powder_snow_fb",
+            (props) -> new Powder_Snow_Fluid_(AllFluid.POWDER_SNOW_FLUID,props),
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WATER),
+            false
+    );
 
     public static void initialize()
     {
