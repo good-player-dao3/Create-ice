@@ -1,0 +1,14 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        "minecraft:ice",
+        "minecraft:flint"
+    ],
+    "fluid_results": [
+        {
+            "id": "create-ice:powder_snow_fluid",
+            "amount": 81000
+        }
+    ],
+    "heat_requirement": "heated"
+}
