@@ -22,4 +22,4 @@
 ## 链接
 - [仓库](https://github.com/good-player-dao3/Create-ice/tree/master)
 - [B站教程](https://www.bilibili.com/video/BV1GJ411x7h7/)
-- [English README](./README-EN.md)
+- [English README](README-EN.md)
