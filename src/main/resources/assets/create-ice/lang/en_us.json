@@ -1,11 +1,24 @@
 {
     "block.create-ice.industrial_sponge": "Industrial Sponge",
+    "create-ice.ponder.shared.industrial_sponge_1.1": "This is an industrial sponge that can store 64B of water.",
+    "create-ice.ponder.shared.industrial_sponge_1.2": "It becomes wet after absorbing water.",
+    "create-ice.ponder.shared.industrial_sponge_3.1": "When on a dynamic structure,",
+    "create-ice.ponder.shared.industrial_sponge_3.2": "it can absorb water when its position changes.",
+    "create-ice.ponder.shared.industrial_sponge_3.3": "When the sponge has absorbed enough water or the structure stops moving,",
+    "create-ice.ponder.shared.industrial_sponge_3.4": "it will no longer absorb water.",
 
     "block.create-ice.ice_maker": "Ice Maker",
+    "create-ice.ponder.shared.ice_maker_1.1": "This is a basin.",
+    "create-ice.ponder.shared.ice_maker_1.2": "We can pour water into it.",
+    "create-ice.ponder.shared.ice_maker_1.3": "Place an ice maker on top.",
+    "create-ice.ponder.shared.ice_maker_1.4": "Apply stress to make ice.",
 
-    "block.create-ice.methane_ice": "Methane Ice",
+    "block.create-ice.methane_ice": "Combustible Ice",
 
-    "block.create-ice.powder_snow_fb": "Powder Snow Fluid",
+    "block.create-ice.powder_snow_fb": "Powder Snow",
 
-    "creativeTab.create-ice": "Create丨Ice"
+    "creativeTab.create-ice": "Create | Ice",
+    "create-ice.ponder.industrial_sponge_1.header": "Using the Industrial Sponge to Store Water",
+    "create-ice.ponder.industrial_sponge_2.header": "Industrial Sponge on a Dynamic Structure",
+    "create-ice.ponder.ice_maker_1.header": "Using the Ice Maker to Produce Ice"
 }
