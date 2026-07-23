@@ -14,6 +14,8 @@ import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 
+import java.util.List;
+
 public class Entity_Ice_Maker extends KineticBlockEntity implements IHaveGoggleInformation
 {
     public Entity_Ice_Maker(BlockPos pos,BlockState state)
@@ -88,44 +90,21 @@ public class Entity_Ice_Maker extends KineticBlockEntity implements IHaveGoggleI
             }
             else if(waterSlot != -1)
             {
-                int itemSlot = -1;
-                ItemStack itemStack = null;
-                for(int i = 0;i < basin.itemCapability.getContainerSize();i++)
+                this.time+=addTime();
+                this.stop = false;
+                //Over
+                if(this.time >= default_MakeTime())
                 {
-                    itemStack = basin.itemCapability.getItem(i);
-                    if(itemStack.is(Items.ICE))
-                    {
-                        itemSlot = itemStack.getCount() < Items.ICE.getDefaultMaxStackSize()?i:-1;
-                        break;
-                    }
-                    else if(itemStack.isEmpty())
-                    {
-                        itemSlot = i;
-                        break;
-                    }
+                    //item
+                    ItemStack itemStack = Items.ICE.getDefaultInstance().copy();
+                    basin.acceptOutputs(List.of(itemStack),List.of(),false);
+                    //fluid
+                    fluidStack.setAmount(fluidStack.getAmount()-(int)FluidConstants.BUCKET);
+                    basin.fluidCapability.setStack(waterSlot,new FluidStack(Fluids.WATER,0));
+                    //time
+                    this.time-=default_MakeTime();
                 }
-
-                if(itemSlot != -1)
-                {
-                    this.time+=addTime();
-                    this.stop = false;
-                    //Over
-                    if(this.time >= default_MakeTime())
-                    {
-                        //item
-                        if(itemStack.isEmpty())
-                            itemStack = Items.ICE.getDefaultInstance().copy();
-                        else
-                            itemStack.setCount(itemStack.getCount()+1);
-                        basin.itemCapability.setItem(itemSlot,itemStack);
-                        //fluid
-                        fluidStack.setAmount(fluidStack.getAmount()-(int)FluidConstants.BUCKET);
-                        basin.fluidCapability.setStack(waterSlot,new FluidStack(Fluids.WATER,0));
-                        //time
-                        this.time-=default_MakeTime();
-                    }
-                    this.setChanged();
-                }
+                this.setChanged();
             }
         }
     }
