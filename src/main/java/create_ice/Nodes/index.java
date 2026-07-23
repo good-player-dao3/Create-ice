@@ -4,6 +4,7 @@ import create_ice.Nodes.Blocks.AllBlocks;
 import create_ice.Nodes.Blocks.EntityBlock_Class.EntityTypes;
 import create_ice.Nodes.Fluid.AllFluid;
 import create_ice.Nodes.Groups.Groups;
+import create_ice.Nodes.Items.AllItem;
 
 public class index {
     public static void initialize()
@@ -11,6 +12,7 @@ public class index {
         AllBlocks.initialize();
         AllFluid.initialize();
         EntityTypes.initialize();
+        AllItem.initialize();
         Groups.initialize();
     }
 }

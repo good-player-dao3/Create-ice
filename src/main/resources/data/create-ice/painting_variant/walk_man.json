@@ -1,0 +1,14 @@
+{
+    "asset_id": "create-ice:walk_man",
+    "height": 2,
+    "width": 2,
+
+    "author": {
+        "color": "gray",
+        "translate": "unknow"
+    },
+    "title": {
+        "color": "yellow",
+        "translate": "painting.create-ice.walk_man.title"
+    }
+}

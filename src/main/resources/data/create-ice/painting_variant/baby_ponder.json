@@ -1,0 +1,14 @@
+{
+    "asset_id": "create-ice:baby_ponder",
+    "height": 2,
+    "width": 2,
+
+    "author": {
+        "color": "gray",
+        "translate": "unknow"
+    },
+    "title": {
+        "color": "yellow",
+        "translate": "painting.create-ice.baby_ponder.title"
+    }
+}

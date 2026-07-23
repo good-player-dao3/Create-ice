@@ -20,5 +20,12 @@
     "creativeTab.create-ice": "Create | Ice",
     "create-ice.ponder.industrial_sponge_1.header": "Using the Industrial Sponge to Store Water",
     "create-ice.ponder.industrial_sponge_2.header": "Industrial Sponge on a Dynamic Structure",
-    "create-ice.ponder.ice_maker_1.header": "Using the Ice Maker to Produce Ice"
+    "create-ice.ponder.ice_maker_1.header": "Using the Ice Maker to Produce Ice",
+
+    "painting.create-ice.work.title": "Production Alert",
+    "painting.create-ice.green_man.title": "Aliens Also Ponder",
+    "painting.create-ice.walk_man.title": "Big Mech Boss",
+    "painting.create-ice.baby_ponder.title": "Me Reckon",
+    "painting.create-ice.high_man.title": "Elegance",
+    "painting.create-ice.cut_cat.title": "Meow~"
 }

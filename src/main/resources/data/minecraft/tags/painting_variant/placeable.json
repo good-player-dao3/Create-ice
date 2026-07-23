@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "create-ice:baby_ponder",
+        "create-ice:cut_cat",
+        "create-ice:green_man",
+        "create-ice:high_man",
+        "create-ice:walk_man",
+        "create-ice:work"
+    ]
+}

@@ -20,5 +20,12 @@
     "creativeTab.create-ice": "机械动力丨冰",
     "create-ice.ponder.industrial_sponge_1.header": "使用工业海绵蓄水",
     "create-ice.ponder.industrial_sponge_2.header": "在动态结构上的工业海绵",
-    "create-ice.ponder.ice_maker_1.header": "使用制冰机制冰"
+    "create-ice.ponder.ice_maker_1.header": "使用制冰机制冰",
+
+    "painting.create-ice.work.title": "《生产警示》",
+    "painting.create-ice.green_man.title": "《外星人也要寻思》",
+    "painting.create-ice.walk_man.title": "《机霸大佬》",
+    "painting.create-ice.baby_ponder.title": "《俺寻思》",
+    "painting.create-ice.high_man.title": "《高雅》",
+    "painting.create-ice.cut_cat.title": "《喵~》"
 }

@@ -1,0 +1,14 @@
+{
+    "asset_id": "create-ice:work",
+    "height": 3,
+    "width": 2,
+
+    "author": {
+        "color": "gray",
+        "translate": "unknow"
+    },
+    "title": {
+        "color": "yellow",
+        "translate": "painting.create-ice.work.title"
+    }
+}
