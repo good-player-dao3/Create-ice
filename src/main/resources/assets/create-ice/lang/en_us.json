@@ -17,6 +17,12 @@
 
     "block.create-ice.powder_snow_fb": "Powder Snow",
 
+    "item.create-ice.ice_brick": "Ice Brick",
+    "block.create-ice.ice_bricks": "Ice Bricks",
+    "block.create-ice.ice_brick_slab": "Ice Brick Slab",
+    "block.create-ice.ice_brick_stairs": "Ice Brick Stairs",
+    "block.create-ice.ice_brick_wall": "Ice Brick Wall",
+
     "creativeTab.create-ice": "Create | Ice",
     "create-ice.ponder.industrial_sponge_1.header": "Using the Industrial Sponge to Store Water",
     "create-ice.ponder.industrial_sponge_2.header": "Industrial Sponge on a Dynamic Structure",

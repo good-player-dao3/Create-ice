@@ -12,6 +12,8 @@ An addon mod for Create Fly, adding ice‑related items and recipes.
 - **Ice Maker** – enables mass production of ice blocks.
 - **Combustible Ice** – not only burnable, but also usable as Blue Ice.
 - **Powder Snow in fluid form** – now you can store Powder Snow in fluid tanks.
+- **Meme Art** – still just as weird
+- **Ice Bricks** – excellent for building, great for ice‑boat racing tracks
 
 ## Version
 - 26.1.2 fabric

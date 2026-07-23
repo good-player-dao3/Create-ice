@@ -3,6 +3,7 @@ package create_ice.Nodes.Blocks;
 
 import com.zurrtum.create.api.behaviour.movement.MovementBehaviour;
 import com.zurrtum.create.api.stress.BlockStressValues;
+import create_ice.Nodes.Blocks.Block_Class.GroupBlocks;
 import create_ice.Nodes.Blocks.Block_Class.Powder_Snow_Fluid_;
 import create_ice.Nodes.Blocks.EntityBlock_Class.Ice_Maker.Ice_Maker;
 import create_ice.Nodes.Blocks.EntityBlock_Class.Industrial_Sponge.Industrial_Sponge;
@@ -50,6 +51,34 @@ public class AllBlocks {
             BlockBehaviour.Properties.ofFullCopy(Blocks.WATER),
             false
     );
+
+    public static final Block ICE_BRICKS = BaseBlock.register(
+            "ice_bricks",
+            GroupBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    ).addGroup();
+
+    public static final Block ICE_BRICK_SLAB = BaseBlock.register(
+            "ice_brick_slab",
+            GroupBlocks.Slab::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    ).addGroup();
+
+    public static final Block ICE_BRICK_STAIRS = BaseBlock.register(
+            "ice_brick_stairs",
+            p -> new GroupBlocks.Stairs(ICE_BRICKS,p),
+            BlockBehaviour.Properties.ofFullCopy(ICE_BRICKS),
+            true
+    ).addGroup();
+
+    public static final Block ICE_BRICK_WALL = BaseBlock.register(
+            "ice_brick_wall",
+            GroupBlocks.Wall::new,
+            BlockBehaviour.Properties.ofFullCopy(ICE_BRICKS),
+            true
+    ).addGroup();
 
     public static void initialize()
     {
