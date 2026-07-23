@@ -23,6 +23,10 @@
     "block.create-ice.ice_brick_stairs": "Ice Brick Stairs",
     "block.create-ice.ice_brick_wall": "Ice Brick Wall",
 
+    "block.create-ice.ice_slab": "Ice Slab",
+    "block.create-ice.ice_stairs": "Ice Stairs",
+    "block.create-ice.ice_wall": "Ice Wall",
+
     "creativeTab.create-ice": "Create | Ice",
     "create-ice.ponder.industrial_sponge_1.header": "Using the Industrial Sponge to Store Water",
     "create-ice.ponder.industrial_sponge_2.header": "Industrial Sponge on a Dynamic Structure",

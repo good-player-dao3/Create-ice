@@ -80,6 +80,27 @@ public class AllBlocks {
             true
     ).addGroup();
 
+    public static final Block ICE_SLAB = BaseBlock.register(
+            "ice_slab",
+            GroupBlocks.Slab::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.PACKED_ICE),
+            true
+    ).addGroup();
+
+    public static final Block ICE_STAIRS = BaseBlock.register(
+            "ice_stairs",
+            p -> new GroupBlocks.Stairs(ICE_BRICKS,p),
+            BlockBehaviour.Properties.ofFullCopy(ICE_BRICKS),
+            true
+    ).addGroup();
+
+    public static final Block ICE_WALL = BaseBlock.register(
+            "ice_wall",
+            GroupBlocks.Wall::new,
+            BlockBehaviour.Properties.ofFullCopy(ICE_BRICKS),
+            true
+    ).addGroup();
+
     public static void initialize()
     {
         //industrial sponge

@@ -5,6 +5,9 @@
         "create-ice:ice_bricks",
         "create-ice:ice_brick_slab",
         "create-ice:ice_brick_stairs",
-        "create-ice:ice_brick_wall"
+        "create-ice:ice_brick_wall",
+        "create-ice:ice_slab",
+        "create-ice:ice_stairs",
+        "create-ice:ice_wall"
     ]
 }

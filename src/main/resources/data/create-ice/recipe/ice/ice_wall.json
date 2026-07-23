@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:packed_ice"
+    },
+    "result": {
+        "id": "create-ice:ice_wall",
+        "count": 6
+    }
+}

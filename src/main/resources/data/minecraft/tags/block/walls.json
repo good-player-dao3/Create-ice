@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "create-ice:ice_brick_wall"
+        "create-ice:ice_brick_wall",
+        "create-ice:ice_wall"
     ]
 }
