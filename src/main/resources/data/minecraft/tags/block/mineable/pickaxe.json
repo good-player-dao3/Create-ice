@@ -2,6 +2,10 @@
     "replace": false,
     "values": [
         "create-ice:ice_maker",
-        "create-ice:methane_ice"
+        "create-ice:methane_ice",
+        "create-ice:ice_bricks",
+        "create-ice:ice_brick_slab",
+        "create-ice:ice_brick_stairs",
+        "create-ice:ice_brick_wall"
     ]
 }

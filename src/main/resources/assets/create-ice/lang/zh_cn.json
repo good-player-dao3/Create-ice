@@ -17,6 +17,12 @@
 
     "block.create-ice.powder_snow_fb": "细雪",
 
+    "item.create-ice.ice_brick": "冰砖",
+    "block.create-ice.ice_bricks": "冰砖块",
+    "block.create-ice.ice_brick_slab": "冰砖台阶",
+    "block.create-ice.ice_brick_stairs": "冰砖楼梯",
+    "block.create-ice.ice_brick_wall": "冰砖墙",
+
     "creativeTab.create-ice": "机械动力丨冰",
     "create-ice.ponder.industrial_sponge_1.header": "使用工业海绵蓄水",
     "create-ice.ponder.industrial_sponge_2.header": "在动态结构上的工业海绵",

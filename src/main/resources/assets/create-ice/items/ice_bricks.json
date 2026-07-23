@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "create-ice:block/ice_brick/ice_bricks"
+    }
+}

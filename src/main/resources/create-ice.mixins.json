@@ -6,7 +6,9 @@
 		"ExampleMixin",
 		"Fluid.mixin_BucketFluidInventory",
 		"Fluid.mixin_VanillaFluidTargets",
-		"Fluid.mixin_OpenEndedPipe"
+		"Fluid.mixin_OpenEndedPipe",
+		"Entity.mixin_LivingEntity",
+		"Entity.mixin_ItemEntity"
 	],
 	"injectors": {
 		"defaultRequire": 1
