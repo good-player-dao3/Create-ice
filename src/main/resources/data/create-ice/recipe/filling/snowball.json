@@ -1,0 +1,12 @@
+{
+    "type": "create:filling",
+    "ingredient": "#create-ice:snowball",
+    "fluid_ingredient": {
+        "type": "fluid_stack",
+        "amount": 27000,
+        "fluid": "create-ice:powder_snow_fluid"
+    },
+    "result": {
+        "id": "create-ice:snowball_more"
+    }
+}

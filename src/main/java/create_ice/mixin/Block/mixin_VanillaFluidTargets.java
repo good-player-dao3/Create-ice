@@ -1,4 +1,4 @@
-package create_ice.mixin.Fluid;
+package create_ice.mixin.Block;
 
 import com.zurrtum.create.content.fluids.pipes.VanillaFluidTargets;
 import com.zurrtum.create.infrastructure.fluids.BucketFluidInventory;

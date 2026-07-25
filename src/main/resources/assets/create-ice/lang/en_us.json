@@ -27,6 +27,10 @@
     "block.create-ice.ice_stairs": "Ice Stairs",
     "block.create-ice.ice_wall": "Ice Wall",
 
+    "item.create-ice.snowball_more": "Laced Snowball",
+    "create-ice.tooltip.snowball_more.effects": "This snowball is laced with",
+    "effect.create-ice.cold": "Freezing",
+
     "creativeTab.create-ice": "Create | Ice",
     "create-ice.ponder.industrial_sponge_1.header": "Using the Industrial Sponge to Store Water",
     "create-ice.ponder.industrial_sponge_2.header": "Industrial Sponge on a Dynamic Structure",

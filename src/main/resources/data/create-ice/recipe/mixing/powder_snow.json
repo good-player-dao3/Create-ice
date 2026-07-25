@@ -2,7 +2,9 @@
     "type": "create:mixing",
     "ingredients": [
         "minecraft:ice",
-        "minecraft:flint"
+        "minecraft:ice",
+        "minecraft:ice",
+        "minecraft:ice"
     ],
     "fluid_results": [
         {

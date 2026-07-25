@@ -4,9 +4,10 @@
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"ExampleMixin",
-		"Fluid.mixin_BucketFluidInventory",
-		"Fluid.mixin_VanillaFluidTargets",
-		"Fluid.mixin_OpenEndedPipe",
+        "Block.mixin_BucketFluidInventory",
+        "Block.mixin_VanillaFluidTargets",
+		"Block.mixin_SpoutBlockEntity",
+        "Block.mixin_OpenEndedPipe",
 		"Entity.mixin_LivingEntity",
 		"Entity.mixin_ItemEntity"
 	],
