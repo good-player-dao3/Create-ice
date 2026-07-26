@@ -104,6 +104,8 @@ public class Ice_Maker_Visual extends ShaftVisual<Entity_Ice_Maker> implements S
     @Override
     public void update(float partialTicks)
     {
+        super.update(partialTicks);
+
         System.out.println("Update "+blockEntity.time);
 
         float progress = blockEntity.getDialTarget();

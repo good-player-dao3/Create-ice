@@ -79,9 +79,7 @@ public class Ice_Maker_Render<T extends Entity_Ice_Maker> implements BlockEntity
         state.dial = CachedBuffers.partial(AllPartialModels.GAUGE_DIAL,blockState).cardinalLighting(cardinalLighting)
                 .light(state.lightCoords).extractRenderState();
         float progress = be.getDialTarget();
-        if (progress != 0) {
-            state.rotate = new Quaternionf().setAngleAxis(Math.PI / 2 * -progress, 1, 0, 0);
-        }
+        state.rotate = new Quaternionf().setAngleAxis(Math.PI / 2 * -progress, 1, 0, 0);
     }
 
     @Override
