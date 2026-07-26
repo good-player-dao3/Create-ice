@@ -32,10 +32,22 @@ public class Snowball_more extends Snowball
     @Override
     protected void onHitEntity(final @NonNull EntityHitResult hitResult)
     {
+        if(hitEntity(hitResult,stack))
+            super.onHitEntity(hitResult);
+    }
+
+    /**
+     * 击中结算
+     * @param hitResult 实体结果
+     * @param stack 物品
+     * @return 是否击退
+     */
+    public static boolean hitEntity(EntityHitResult hitResult,ItemStack stack)
+    {
         boolean hurt = true;
-        if(this.stack != null && (hitResult.getEntity() instanceof LivingEntity entity))
+        if(stack != null && (hitResult.getEntity() instanceof LivingEntity entity))
         {
-            List<MobEffectInstance> effects = new ArrayList<>(this.stack.getOrDefault(SnowballItem_more.ADD_TYPE,List.of()));
+            List<MobEffectInstance> effects = new ArrayList<>(stack.getOrDefault(SnowballItem_more.ADD_TYPE,List.of()));
             for(MobEffectInstance e:effects)
             {
                 entity.addEffect(new MobEffectInstance(e));
@@ -43,7 +55,6 @@ public class Snowball_more extends Snowball
                     hurt = false;
             }
         }
-        if(hurt)
-            super.onHitEntity(hitResult);
+        return hurt;
     }
 }

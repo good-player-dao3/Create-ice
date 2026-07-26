@@ -12,11 +12,14 @@ An addon mod for Create Fly, adding ice‑related items and recipes.
 - **Ice Maker** – enables mass production of ice blocks.
 - **Combustible Ice** – not only burnable, but also usable as Blue Ice.
 - **Powder Snow in fluid form** – now you can store Powder Snow in fluid tanks.
-- **Meme Art** – still just as weird
-- **Ice Bricks** – excellent for building, great for ice‑boat racing tracks
+- **Meme Paintings** – still as bizarre as ever.
+- **Ice Bricks** – a great building material, perfect for making ice boat race tracks.
+- **Laced Snowball** – a snowball with a little extra "kick".
+- **Enhanced Potato Cannon** – can fire snowballs and potions.
 
 ## Version
 - 26.1.2 fabric
+- Java 25 (required; Java 21 will not start properly)
 
 ## Dependencies
 - [Create Fly](https://modrinth.com/mod/create-fly)
@@ -24,4 +27,4 @@ An addon mod for Create Fly, adding ice‑related items and recipes.
 ## Links
 - [Repository](https://github.com/good-player-dao3/Create-ice/tree/master)
 - [Bilibili Tutorial](https://www.bilibili.com/video/BV1GJ411x7h7/)
-- [中文 README](README.md)
+- [English README](README-EN.md)

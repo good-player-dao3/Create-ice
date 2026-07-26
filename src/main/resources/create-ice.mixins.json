@@ -4,12 +4,13 @@
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"ExampleMixin",
-        "Block.mixin_BucketFluidInventory",
-        "Block.mixin_VanillaFluidTargets",
+		"Block.mixin_BucketFluidInventory",
+		"Block.mixin_OpenEndedPipe",
 		"Block.mixin_SpoutBlockEntity",
-        "Block.mixin_OpenEndedPipe",
+		"Block.mixin_VanillaFluidTargets",
+		"Entity.mixin_ItemEntity",
 		"Entity.mixin_LivingEntity",
-		"Entity.mixin_ItemEntity"
+		"Entity.mixin_PotatoProjectileEntity"
 	],
 	"injectors": {
 		"defaultRequire": 1
